@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 模型权重（体积大，不入库；请运行脚本重新生成） ----
+checkpoints/*.pth
+checkpoints/*.pt
+*.pth
+*.pt
+
+# ---- 运行时产物 ----
+outputs/
+runs/
+*.log
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,70 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "第一步 从零训练 AlexNet",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step1_scratch.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第二步 加载预训练",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step2_pretrained.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第三步 数据增强",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step3_augment.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第四步 多模型对比",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step4_compare.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第五步 训练并保存最佳模型",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step5_train_best.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第五步 单张图片推理",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step5_2_test.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "第六步 Gradio 小程序",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/step6_app.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
